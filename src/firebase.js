@@ -17,15 +17,6 @@ const firebaseConfig = {
   messagingSenderId: `${process.env.REACT_APP_MESSAGING_SENDER_ID}`,
   appId: `${process.env.REACT_APP_APP_ID}`,
 };
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAjhFpORrpzlXRMg-g7xV1l1jG9iU2RBlI",
-//   authDomain: "react-messenger-62fd1.firebaseapp.com",
-//   databaseURL: "react-messenger-62fd1.firebaseapp.com",
-//   projectId: "react-messenger-62fd1",
-//   storageBucket: "react-messenger-62fd1.appspot.com",
-//   messagingSenderId: "668444933581",
-//   appId: "1:668444933581:web:8842e715ceb5e62c0a9884",
-// };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
